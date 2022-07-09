@@ -88,3 +88,9 @@ li:nth-child(2n)
     color: rgb(224, 170, 19);
     background-color: azure;
 }
+.five{
+    padding: 50px;
+}
+.five-img{
+    padding: 20px;
+}
