@@ -1,15 +1,55 @@
 body{
-    margin: 0px;
+    margin: 100px;
     background-color: hsl(34, 78%, 91%);
     font-family: 'Courier New', Courier, monospace;
 }
 .blog{
     color: black;
-    background-color: rgb(125, 143, 158);
-    border: 2px ridge red;
+    background-color: rgba(125, 143, 158, 0.774);
+    border: 8px ridge #ad375e9d;
     padding: 20px;
     text-align: justify;
-    outline: 3px outset blueviolet;
-
+    outline: 20px outset blueviolet;
+    margin: 50px 0px;
 }
 /* blog - header */
+.header{
+    color: #ff0000ab;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*blog first */
+
+#first-head{
+    color: yellow;
+}
+.first > p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.two > h2{
+    text-align: center;
+    color:aqua
+}
+.two > p{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#three-head{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+.three-sub{
+ display: flex;
+}
+.three-sub-one{
+    border: none;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.add-style{
+    border-right: 10px solid yellow;
+}
