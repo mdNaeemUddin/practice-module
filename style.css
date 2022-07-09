@@ -14,7 +14,7 @@ body{
 }
 /* blog - header */
 .header{
-    color: #ff0000ab;
+    color: #a212beee;
     font-size: 30px;
     text-align: center;
 }
@@ -57,6 +57,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .add-style{
+    padding-right: 40px;
     border-right: 10px solid yellow;
 }
 /*blog four below*/
