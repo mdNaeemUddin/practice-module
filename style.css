@@ -9,7 +9,7 @@ body{
     border: 8px ridge #ad375e9d;
     padding: 20px;
     text-align: justify;
-    outline: 20px outset blueviolet;
+    outline: 20px outset rgba(11, 201, 106, 0.884);
     margin: 50px 0px;
 }
 /* blog - header */
@@ -27,6 +27,9 @@ body{
 .first > p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*second blog below*/
+
 .two > h2{
     text-align: center;
     color:aqua
@@ -35,6 +38,9 @@ body{
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/*third blog below*/
+
 #three-head{
     text-align: center;
     font-size: 34px;
@@ -52,4 +58,33 @@ body{
 }
 .add-style{
     border-right: 10px solid yellow;
+}
+/*blog four below*/
+.four > h1{
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+}
+input:focus{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+/*footer here*/
+#footer-section > p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-style: italic;
+    border: 3px ridge yellow;
+    border-radius: 15px;
+    text-decoration: none;
+    color: red;
+    background-color: beige;
+}
+li:nth-child(2n)
+{
+    color: rgb(224, 170, 19);
+    background-color: azure;
 }
