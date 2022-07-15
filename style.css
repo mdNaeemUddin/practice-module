@@ -1,0 +1,26 @@
+body{
+    margin: 120px;
+}
+.first-head{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-weight: bold;
+    border: 3px outset gold;
+    padding: 30px;
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+}
+.second-head{
+    text-align: left;
+    color: rgb(56, 17, 197);
+}
+.static-video{
+    display: inline-block;
+    width: 450px;
+    height: 320px;
+    border: 8px ridge rgb(75, 233, 2);
+}
